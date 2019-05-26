@@ -87,6 +87,9 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        mStartDateCalendar.setVisibility(View.GONE);
+        mEndtDateCalendar.setVisibility(View.GONE);
     }
 
 
